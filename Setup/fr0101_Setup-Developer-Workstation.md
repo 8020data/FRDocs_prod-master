@@ -180,29 +180,34 @@ FormR!1234
 #### 7. Create 3 ssh keys. These keys will be used for GitHub, your Cloud Provider and your Remote server. Run from the Windows command prompt
 
 
-- Format:
-
-ssh-keygen -t rsa -f
-"<local user folder>/.ssh/
-<key owner name>@<host name>_<host user initials>_v<date>_key"
--C "<key owner name>@<host name>_<host user initials>_v<date>"
-
-- Example: 
-
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
-
-- In the following "mickey mouse snippets" change the following to your info:
-
-    - "mickey.mouse" to <your Key Owner Name> i.e. bruce.troutman
-    - "mick" to <your initiaks> i.e. kff or cbt or bill, etc.
-    - "v210713" to the <current date>
-
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.
+  </div>  
+</div>
 
 #### 8. Key pairs for Github:
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: Do not enter a passphase, when prompted.
+
+Format:
+
+ssh-keygen -t rsa -f
+"local user folder/.ssh/
+key owner name@host name_host user initials_vdate_key"
+-C "key owner name@host name_host user initials_vdate"
+
+Example: 
+
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
+
+In the following "mickey mouse snippets" change the following to your info:
+
+- "mickey.mouse" to your Key Owner Name i.e. bruce.troutman
+- "mick" to your initials i.e. kff or cbt or bill, etc.
+-"v210713" to the current date
+
   </div>  
 </div>
 
