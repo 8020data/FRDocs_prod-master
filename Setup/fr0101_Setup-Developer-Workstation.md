@@ -181,6 +181,7 @@ ssh
 
 ![OpenSSH-is-installed](./images/fr0101-02_OpenSSH-is-installed.png "OpenSSH-is-installed")
 
+
 #### 7. Create 3 ssh keys. 
 
 <div class="notice-tip">
@@ -198,6 +199,7 @@ Note:
 </div>
 
 #### 8. Key pairs for Github:
+
 
 <div class="notice-tip">
   <div class="notice-tip-header">
