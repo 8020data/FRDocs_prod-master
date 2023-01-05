@@ -173,16 +173,27 @@ FormR!1234
 
 ![Install-OpenSSH3](./images/fr0101-02_Install-OpenSSH3.png "Install-OpenSSH3")
 
-#### 6. OpenSSH client
+#### 6. OpenSSH client at the command promt enter:
+
+```
+ssh
+```
 
 ![OpenSSH-is-installed](./images/fr0101-02_OpenSSH-is-installed.png "OpenSSH-is-installed")
 
-#### 7. Create 3 ssh keys. These keys will be used for GitHub, your Cloud Provider and your Remote server. Run from the Windows command prompt
-
+#### 7. Create 3 ssh keys. 
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.
+
+Note:
+
+  These keys will be used for GitHub, your Cloud Provider and your Remote server.
+
+  Run from the Windows command prompt.
+
+  Use Notepad to modify the scripts to your information.
+
   </div>  
 </div>
 
@@ -206,7 +217,7 @@ In the following "mickey mouse snippets" change the following to your info:
 
 - "mickey.mouse" to your Key Owner Name i.e. bruce.troutman
 - "mick" to your initials i.e. kff or cbt or bill, etc.
--"v210713" to the current date
+-"v210713" to the "v" + current date  YYMMDD
 
   </div>  
 </div>
