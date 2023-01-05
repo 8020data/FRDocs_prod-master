@@ -74,7 +74,12 @@ reboot
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: To paste commands into the terminal, right-click at the terminal prompt 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: To paste commands into the terminal, right-click at the terminal prompt
+  </div>  
+</div>  
+
 
 ----
 ### 2. Install MySQL 0:05
@@ -144,7 +149,12 @@ systemctl status mysql.service
 
 ![Mysql-setup-allow-remote-access](./images/fr0305-05_Ubuntu-allow-remote-access-mysql.png "Mysql-setup-allow-remote-access")
 
-- Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue.
+  </div>  
+</div>
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
@@ -160,7 +170,14 @@ ufw status
 ![Mysql-setup-open-firewall-port-3360](./images/fr0305-06_Ubuntu-open-firewall-port-3360-mysql.png "Mysql-setup-open-firewall-port-3360")
 
 #### 6. Create and Grant Privileges to user account: nimdas with host %
-(Note: root@localhost has all rights and nimdas@% will have all rights) 
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: root@localhost has all rights and nimdas@% will have all rights.
+  </div>  
+</div>
+ 
 
 #### 7. From the  New terminal console prompt enter:
 

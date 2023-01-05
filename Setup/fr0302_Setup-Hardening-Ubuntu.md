@@ -71,7 +71,11 @@ reboot
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
 
-#### Note: To paste commands into the terminal, right-click at the terminal prompt 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: To paste commands into the terminal, right-click at the terminal prompt 
+  </div>  
+</div>
 
 ----
 ### 2. Create a new sudo user 0:05
@@ -164,7 +168,12 @@ systemctl status unattended-upgrades
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades.png "Check Unattended Upgrades")
 
-- Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue.
+  </div>  
+</div>
+
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
@@ -467,7 +476,12 @@ systemctl restart fail2ban
 
 #### 7. Attempting to login to the server and failing three times, access is blocked. 
 
-#### Special Fail2ban Note: To flush all bans enter the following 2 times from the formR0 Ubuntu console:
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Special Fail2ban Note: To flush all bans enter the following 2 times from the formR0 Ubuntu console:
+  </div>  
+</div>
 
 ```
 fail2ban-client unban --all
@@ -589,9 +603,13 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
 
-#### Note: Issues reported by both rkhunter and lynis require more attention than formR can offer.
 
-<br/>
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Issues reported by both rkhunter and lynis require more attention than formR can offer.
+  </div>  
+</div>
+
 
 - For more information: 
 

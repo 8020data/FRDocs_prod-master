@@ -73,7 +73,12 @@ reboot
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: To paste commands into the terminal, right-click at the terminal prompt  
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: To paste commands into the terminal, right-click at the terminal prompt
+  </div>  
+</div>  
 
 ----
 ### 2. Install nginx 0:05
@@ -161,6 +166,7 @@ ls -ld /webs
 <div class="notice-success">
   <div class="notice-success-header">
     Congratulations! You have installed a Web server on your Ubuntu server.
+
   </div>
 </div>
 

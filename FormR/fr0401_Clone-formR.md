@@ -135,7 +135,15 @@ npm audit --production
 ----
 ### 3. Install RAuth and World databases 0:05
 ----
-Note: The World sample database has been modified so that all tables contain ID primary key fields.
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The World sample database has been modified so that all tables contain ID primary key fields.
+  </div>  
+</div>
+
+
 
 ----
 
@@ -261,7 +269,11 @@ npm start
 #### 3. Right click on the client/1c-world folder and
 #### 4. Click Open in Integrated Terminal, then 
 
-(Note: The client application can take up to 15 minutes to start for the first time)
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The client application can take up to 15 minutes to start for the first time.
+  </div>  
+</div>
 
 ![formR-Clone-23](images/fr0103-formR-Clone-23.png "formR-Clone-23")
 

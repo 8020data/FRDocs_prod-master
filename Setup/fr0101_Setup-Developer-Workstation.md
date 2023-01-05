@@ -200,7 +200,12 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 #### 8. Key pairs for Github:
 
-- Note: Do not enter a passphase, when prompted.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Do not enter a passphase, when prompted.
+  </div>  
+</div>
+
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
@@ -210,7 +215,11 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 #### 9. Key pairs for Cloud Provider:
 
-- Note: Do not enter a passphase, when prompted.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Do not enter a passphase, when prompted.
+  </div>  
+</div>
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_key" -C "mickey.mouse@Vultr_mick_v210713"
@@ -220,7 +229,11 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 
 #### 10. Key pairs for access to Remote Server on Cloud Provider:
 
-- Note: Do not enter a passphase, when prompted.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Do not enter a passphase, when prompted.
+  </div>  
+</div>
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_v210713_key" -C "mickey.mouse@Vultr-formR0_nimda_v210713"
@@ -391,7 +404,12 @@ Host github-mick
 ssh github-mick
 ```
 
-Note: On the first try when prompted enter "yes" 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: On the first try when prompted enter "yes"
+  </div>  
+</div>
+ 
 
 
 ![Test ssh to github-1st-yes](./images/fr0101-03_Test-ssh-to-github-1st-yes.png "Test ssh to github-1st-yes") 
@@ -907,8 +925,14 @@ FormR!1234
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
 #### 15. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
-<br/>
-Note: root@localhost has all rights and nimdas@% will have all rights
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: root@localhost has all rights and nimdas@% will have all rights.
+  </div>  
+</div>
+ 
 
 - Open New Query tab
 

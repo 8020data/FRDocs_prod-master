@@ -103,7 +103,12 @@ reboot
 #### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_nimda
 #### 7. Right click and select Edit
 
-- Note you may need to expand the name column to see the .pub extension
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: You may need to expand the name column to see the .pub extension.
+  </div>  
+</div>
 
 ![BitVise Copy public key](./images/fr0306-05_Ubuntu-Bitvise-Copy-public-key.png "BitVise Copy public key") 
 
@@ -365,13 +370,19 @@ systemctl reload nginx
 ### 7. Create a domain for public access to your server 0:15
 ----
 
-- Note:
+<div class="notice-tip">
+  <div class="notice-tip-header">
+Note:
 
-- To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
+To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
 
-- There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our formR example we decline all extra services from the domain provider. 
+There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our formR example we decline all extra services from the domain provider. 
 
-- The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
+The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
+
+  </div>  
+</div>
+
 ----
 #### 1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 

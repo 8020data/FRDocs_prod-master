@@ -15,8 +15,12 @@
 #### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
-##### Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:
-<br />
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:
+  </div>  
+</div>
+
 
 - [Security Architecture](https://www.educba.com/security-architecture/)
 

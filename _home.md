@@ -121,8 +121,11 @@ and it's very secure
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
 5. You will intall and test an SSL certificate and access your website from the Internet.
 
-##### Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:
-<br />
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:
+  </div>  
+</div>
 
 - [Security Architecture](https://www.educba.com/security-architecture/)
 

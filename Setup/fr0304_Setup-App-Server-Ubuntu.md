@@ -76,7 +76,12 @@ reboot
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: To paste commands into the terminal, right-click at the terminal prompt 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: To paste commands into the terminal, right-click at the terminal prompt
+  </div>  
+</div>  
+
 ----
 ### 2. Install nvs (node version selector) 0:05
 ----

@@ -324,7 +324,14 @@ npm start
 ----
 
 #### 1. Right click on the server/5s-react-app-wi-api folder 
-####  Note: server folder  client folder
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    : Click the server folder not the client folder
+  </div>  
+</div>
+ 
 #### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
@@ -345,17 +352,32 @@ http://localhost:50115/invoices
 
 ![FRApps-Clone55b](images/fr0103-FRApps-Clone-55b.png "FRApps-Clone-55b")
 
-#### Note: Keep this step 7a running when you do step 7b (next step)
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Keep this step 7a running when you do step 7b (next step)
+  </div>  
+</div>
+
 
 ----
  ### 7b. Run Client 5c-react-app-wi-api application 0:05
 ----
 
-#### Note: Be sure step 7a is running
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Be sure step 7a is running
+  </div>  
+</div>
 
 
 #### 1. Right click on the client/5c-react-app-wi-api folder
-####  Note: "client" folder NOT "server" folder
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Click the server folder not the client folder
+  </div>  
+</div>
+
 #### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
