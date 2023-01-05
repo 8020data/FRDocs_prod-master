@@ -168,7 +168,7 @@ npm install express
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Tip: In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
+    Note: In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
   </div>  
 </div>
 

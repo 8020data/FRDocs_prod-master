@@ -363,9 +363,13 @@ $ frt
 ```
 
 ----
-#### Congratulations! You have Cloned formR successfully to your local workstation.
-----
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have Cloned formR successfully to your  local workstation.
+  </div>
+</div>
 
+----
 
 <!-- ------------------------------------------------------------------------- -->
 

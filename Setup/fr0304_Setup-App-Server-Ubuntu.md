@@ -181,9 +181,13 @@ npm install express
 
 ![Install Express](./images/fr0304-11_Ubuntu-install-express.png "Install Express")
 
-
 ----
-#### Congratulations! You have installed an Application server on your Ubuntu server.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have installed an Application server on your Ubuntu server.
+  </div>
+</div>
+
 ----
 
 <!-- ------------------------------------------------------------------------- -->

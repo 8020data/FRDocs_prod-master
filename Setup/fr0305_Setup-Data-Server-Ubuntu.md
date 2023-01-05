@@ -261,7 +261,12 @@ v
 ![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local2.png "Mysql-setup-login-admin-mysqlsh-local")
 
 ----
-#### Congratulations! You have installed a Database server on your Ubuntu server.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have installed a Database server on your Ubuntu server.
+  </div>
+</div>
+
 ----
 
 <!-- ------------------------------------------------------------------------- -->

@@ -213,10 +213,13 @@ e.g. formR-cbt-00.com/5c-my-react-app
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15f.png "FRApps-Deploy-15")
 
-
-
 ----
-#### Congratulations! You have deployed and run the my-react-app successfully on your remote server.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have deployed and run the my-react-app successfully on your remote server.
+  </div>
+</div>
+
 ----
 
 

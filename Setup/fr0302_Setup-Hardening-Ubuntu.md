@@ -618,17 +618,26 @@ cd /etc/lynis
 #### 4. Paste the following:
 
 ```
-ssh nimda@<your VM IP address>
+ssh nimda@<your Vultr IP address>
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
+----
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have hardened your Ubuntu server on Vultr.
+  </div>
+</div>
 
 ----
-#### Congratulations! You have hardened your Ubuntu server on Vultr.
-----
 
-#### NOTE: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This setup protects your server from the most common vulnerabilites. Continue to add protection as threats are discovered.
+  </div>  
+</div>
+
 ----
 
 

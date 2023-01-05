@@ -197,7 +197,12 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 
 ----
-#### Congratulations! You have created your Ubuntu server on Vultr.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have created your Ubuntu server on Vultr.
+  </div>
+</div>
+
 ----
 
 

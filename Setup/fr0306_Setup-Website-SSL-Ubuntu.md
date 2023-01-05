@@ -666,7 +666,12 @@ ufw delete 4
 ![BitVise Close Port 5000](./images/fr0306-13_Ubuntu-Bitvise-Close-Port-5000.png "BitVise Close Port 5000")
 
 ----
-#### Congratulations your Ubuntu server is secure and ready for action.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations your Ubuntu server is secure and ready for action.
+  </div>
+</div>
+
 ----
 
 <!-- ------------------------------------------------------------------------- -->
