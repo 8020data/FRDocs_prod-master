@@ -193,8 +193,6 @@ Note:
 
   Run from the Windows command prompt.
 
-  Use Notepad to modify the scripts to your information.
-
   </div>  
 </div>
 
@@ -224,10 +222,23 @@ In the following "mickey mouse snippets" change the following to your info:
   </div>  
 </div>
 
+----
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Paste the following code into Notepad and modify it to your information:
+  </div>  
+</div>
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 ```
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Do not enter a passphase, when prompted.
+  </div>  
+</div>
 
 ![Create New ssh key1](./images/fr0101-03_Create-New-ssh-key1.png "Create New ssh key1")
 
@@ -235,7 +246,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: Do not enter a passphase, when prompted.
+    Paste the following code into Notepad and modify it to your information:
   </div>  
 </div>
 
@@ -243,19 +254,31 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_key" -C "mickey.mouse@Vultr_mick_v210713"
 ```
 
-![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
-
-#### 10. Key pairs for access to Remote Server on Cloud Provider:
-
 <div class="notice-tip">
   <div class="notice-tip-header">
     Note: Do not enter a passphase, when prompted.
   </div>  
 </div>
 
+![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
+
+#### 10. Key pairs for access to Remote Server on Cloud Provider:
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Paste the following code into Notepad and modify it to your information:
+  </div>  
+</div>
+
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_v210713_key" -C "mickey.mouse@Vultr-formR0_nimda_v210713"
 ```
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Do not enter a passphase, when prompted.
+  </div>  
+</div>
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
 
