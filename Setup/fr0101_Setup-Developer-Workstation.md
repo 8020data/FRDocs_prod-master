@@ -224,11 +224,7 @@ In the following "mickey mouse snippets" change the following to your info:
 
 ----
 
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    Paste the following code into Notepad and modify it to your information:
-  </div>  
-</div>
+- Paste the following code into Notepad and modify it to your information:
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
@@ -244,11 +240,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 #### 9. Key pairs for Cloud Provider:
 
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    Paste the following code into Notepad and modify it to your information:
-  </div>  
-</div>
+- Paste the following code into Notepad and modify it to your information:
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_key" -C "mickey.mouse@Vultr_mick_v210713"
@@ -264,11 +256,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 
 #### 10. Key pairs for access to Remote Server on Cloud Provider:
 
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    Paste the following code into Notepad and modify it to your information:
-  </div>  
-</div>
+- Paste the following code into Notepad and modify it to your information:
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_v210713_key" -C "mickey.mouse@Vultr-formR0_nimda_v210713"
