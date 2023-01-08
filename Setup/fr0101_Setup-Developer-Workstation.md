@@ -49,11 +49,12 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <div class="notice-warning">
   <div class="notice-warning-header">
-    Warning: Use the Account: Local_Admin
+    Warning: Use the Account Name: Local_Admin
   </div>
 
-- This account will be used throughout the documentation.  
-- It is not recommened to use another account, but if you do so, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+- It is not recommended to use another account name
+- This account name will be referenced throughout the tutorial.  
+- If you choose another account name, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
 </div>
 
