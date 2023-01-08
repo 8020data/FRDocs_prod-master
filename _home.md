@@ -23,7 +23,7 @@
 1. If you have access to a Windows 10 or higher workstation.
 2. If you have zero knowledge about computing.
 3. If you have substantial knowledge about it.
-4. If you are willing to spend $30.
+4. If you are willing to spend $30 for your own web domain and server on the Internet.
 5. If you want to create database applications on your own server. 
 6. If you want to boast:  "I have completed all the steps to build my own live and secure web database server and applications on the Internet" 
 
@@ -112,6 +112,13 @@ and it's very secure
 2. You will test that all of your tools are working properly.
 3. You will clone the formR github repository to your local workstation.
 4. You will test formR locally.
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Only 6 GB of disk space is used to set up your workstation.
+  </div>  
+</div>
+
 ----
 #### Build a secure Cloud Server
 ----
@@ -155,9 +162,14 @@ and it's very secure
 ![formR Back End Diagram](/assets/images/fr0001-01_formR-Back-End-Diagram.png "formR Back End Diagram")
 
 
-#### The formR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
+- The formR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
 
-#### We have chosen the most popular Javascript ES6 for this project. This allows the same programming language to be used in modern browsers, Node servers, scripting tools and Windows and Unix based operating systems.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+  Note: We have chosen the most popular Javascript ES6 for this project. This allows the same programming language to be used in modern browsers, Node servers, scripting tools and Windows and Unix based operating systems.
+    </div>  
+</div>
+
 ----
 ### The formR Migration Strategy
 ----
