@@ -297,17 +297,25 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 https://google.com/chrome
 ```
 
+![Chrome-extensions](./images/fr0101-03_Chrome-install.png "Chrome-extensions")
+
 #### 2. Make Chrome your default browser
+
+- Search for "Settings" in the Windows tray, then Apps
 
 <div class="notice-tip">
   <div class="notice-tip-header">
     Note: This only applies to the Local_Admin account.
   </div>  
 </div>
+<br/>
+
+![Chrome-extensions](./images/fr0101-03_Chrome-make-default.png "Chrome-extensions")
 
 
 #### 3. Install Chrome Extensions
 
+- These tools will be useful in development.
 
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
@@ -317,9 +325,13 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 
 #### 4. Add Markdown Preview Plus
 
+- This extension will allow chrome to display Markdown files
+
 ![Chrome-extensions1](./images/fr0101-03_Chrome-extensions1.png "Chrome-extensions1")
 
 #### 5. Allow access to file URLs
+
+- This setting will allow Chrome to view Markdown (.md) files from File Explorer
 
 ```
 chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
@@ -329,6 +341,8 @@ chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
 
 #### 6. Add React Developers Tools
 
+- This extensions adds debugging assistance to Chrome for React applications
+
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
 ```
@@ -336,6 +350,13 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 ![Chrome-extensions3](./images/fr0101-03_Chrome-extensions3.png "Chrome-extensions3")
 
 #### 7. Check the installations
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Google Docs Offline was installed with Chrome.
+  </div>  
+</div>
+
 
 ```
 chrome://extensions/
