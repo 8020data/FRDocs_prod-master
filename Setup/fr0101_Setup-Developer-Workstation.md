@@ -395,14 +395,22 @@ https://github.com/settings/ssh
 ![Add New ssh key-3](./images/fr0101-04_Add-New-ssh-key-3.png "Add New ssh key-3") 
 
 
-#### 5. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
+#### 5. Paste the clipboard contents into the Key box in the github SSH Keys/ Add new screen.
 
 #### 6. Copy the last part of the key and paste it into the Title box.
+
+- i.e. bruce.troutman@github_btg_v210713
 
 #### 7. Click the Add SSH key button when finished.
 
 
 ![Add New ssh key-4](./images/fr0101-04_Add-New-ssh-key-4.png "Add New ssh key-4")
+
+- Enter your Github account password to confirm access
+
+![Add New ssh key-4](./images/fr0101-04_Add-New-ssh-key-4a.png "Add New ssh key-4")
+
+- Your ssh key has been added
 
 ![Add New ssh key-5](./images/fr0101-04_Add-New-ssh-key-5.png "Add New ssh key-5")
 
@@ -449,10 +457,18 @@ https://github.com/new
 
 #### 13. Configure ssh Access to Github on your Windows workstation
 
-- Create a Host for github connection in the .ssh/config file.
+Create a Host for github connection in the .ssh/config file.
 
 
-- Create .ssh/config file in C:/users/Local_Admin/.ssh. Make sure it is saved without the .txt extention, then open with notepad and add the following:
+- Create "config" file in C:/users/Local_Admin/.ssh. 
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Make sure it is saved without the .txt extention.
+  </div>  
+</div>
+
+-  Open with notepad and add the following:
 
 ```
 Host github-mick
@@ -462,7 +478,7 @@ Host github-mick
 ```
 
 - Be sure to change:
-    - "github-mick"  to "github-(your initials)"
+    - Host "github-mick"  to "github-(your initials)"
     - IdentityFile to the name of your github key file in C:/Users/Local_Admin/.ssh
 
 
@@ -495,12 +511,14 @@ ssh github-your initials
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
 ----
-### 6. Download Git, if not already installed 0:10
+### 6. Download Git for Windows 0:10
 ----
 
 ```
  https://git-scm.com/download/win
 ```
+
+- Select "64-bit Git for Windows Setup" download then open the download.
 
 ![Git-for-Windows](./images/fr0101-06_Git-for-Windows.png "Git-for-Windows")
 
@@ -518,6 +536,8 @@ ssh github-your initials
 
 
 #### 4. Open Git Bash
+
+- From Windows Search charm: bit bash
 
 ![Git-for-Windows4](./images/fr0101-06_Git-for-Windows4.png "Git-for-Windows4")
 
@@ -579,6 +599,12 @@ https://code.visualstudio.com/download
 
 ![VSCode](./images/fr0101-07_VSCode.png "VSCode")
 
+- Click Download then open the download
+
+![VSCode](./images/fr0101-07_VSCode-a.png "VSCode")
+
+
+
 #### 1. Accept **all the defaults**
 
 ![VSCode](./images/fr0101-07_VSCode1.png "VSCode")
@@ -608,17 +634,21 @@ https://code.visualstudio.com/download
 
 ![VSCode6](./images/fr0101-07_VSCode6.png "VSCode6")
 
+- Your installed Extensions
+
 ![VSCode6a](./images/fr0101-07_VSCode6a.png "VSCode6a")
 
 #### 8. Change default terminal and add Autosave
 
-- Using File Explorer create or edit settings.json: 
+- Using File Explorer navigate to:
 
 ```
- C:\Users\Local_Admin\AppData\Roaming\Code\User\settings.json
+C:\Users\Local_Admin\AppData\Roaming\Code\User\
 ```
 
-- Delete all lines and Add these lines:
+  - Create or edit settings.json: 
+
+  - Delete all lines and Add these lines:
 
 ```
 {
@@ -696,7 +726,7 @@ code .
 
 ![Trust-authors](./images/fr0101-08_Trust-authors.png "Trust-authors")
 
-#### 5. Close the Welcome window
+#### 5. Close the Get Started window
 
 ![Close-welcome](./images/fr0101-08_Close-welcome.png "Close-welcome")
 
@@ -716,7 +746,7 @@ code .
 ```
     1. My first update was changed locally.
 
-    #### 2. I previewed it in VSCode and Chrome.
+    2. I previewed it in VSCode and Chrome.
 ```
 
 ![Markdown-Preview](./images/fr0101-09_Markdown-Preview.png "Markdown-Preview")
@@ -729,7 +759,11 @@ code .
 
 ![Markdown-Preview4](./images/fr0101-09_Markdown-Preview4.png "Markdown-Preview4")
 
-#### 3. From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe, your preview will display.
+#### 3. From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe. your preview will display.
+
+```
+C:\Program Files\Google\Chrome\Application
+```
 
 ![Markdown-Preview5](./images/fr0101-09_Markdown-Preview5.png "Markdown-Preview5")
 
@@ -738,7 +772,7 @@ code .
 ----
 ### 10. From VSCode push and pull with GitHub 0:10
 ----
-#### 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
+#### 1. From VSCode.. Click the Control Source charm on the activity bar. It indicates that 2 files that have been changed.
 
 ![Github-push](./images/fr0101-10_Github-push.png "Github-push")
 
@@ -752,27 +786,23 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-1a](./images/fr0101-10_Github-push-1a.png "Github-push-1a")
 
-#### 3. If this shows then, Select Always at the There are no staged changes... box 
+- Click Commit
+
+![Github-push-1b](./images/fr0101-10_Github-push-1b.png "Github-push-1b")
+
+#### 3. If the following message shows, then select Always
 
 ![Github-always](./images/fr0101-10_Github-always.png "Github-always") 
 
-#### 4. Click on the Commit checkmark above the Message textbox
-
-![Github-push-2](./images/fr0101-10_Github-push-2.png "Github-push-2")
-
-#### 5. If this shows then, Select Yes at the Git fetch box
-
-![Github-no](./images/fr0101-10_Github-no.png "Github-no")
-
-#### 6. Click the Sync Changes button to push to github
+#### 4. Click the Sync Changes button to push to github
 
 ![Github-push-3](./images/fr0101-10_Github-push-3.png "Github-push-3")
 
-#### 7. Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
+#### 5. Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
 
 ![Github-push-4](./images/fr0101-10_Github-push-4.png "Github-push-4")
 
-#### 8. Modify Readme.md in Github by adding these lines:
+#### 6. Modify Readme.md in Github by adding these lines:
 
 - Remember the pencil!
 
@@ -784,7 +814,7 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-5](./images/fr0101-10_Github-push-5.png "Github-push-5")
 
-#### 9. Commit changes
+#### 7. Commit changes
 
 - Go to the bottom of the edit page to the Commit Changes section.
 
@@ -796,11 +826,11 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-#### 10. Click the Sync Changes button to push to github
+#### 8. Click the Sync Changes button to push to github
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 
-#### 11. The Github changes will now appear in the Readme.md file. 
+#### 9. The Github changes will now appear in the Readme.md file. 
 
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
