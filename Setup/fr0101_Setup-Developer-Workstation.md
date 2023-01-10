@@ -289,7 +289,13 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 ### 4. Install or open Chrome browser 0:10
 ----
 
-- If Chrome is installed, skip to step 2.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: If Chrome is installed, skip to step 2.
+  </div>  
+</div>
+<br/>
+
 
 #### 1. Download and install Chrome from:
 
@@ -301,7 +307,7 @@ https://google.com/chrome
 
 #### 2. Make Chrome your default browser
 
-- Search for "Settings" in the Windows tray, then Apps
+- Search for "Default Apps" in the Windows tray, then click Web Browser and select Chrome
 
 <div class="notice-tip">
   <div class="notice-tip-header">
