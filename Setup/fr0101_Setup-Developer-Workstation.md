@@ -373,15 +373,31 @@ chrome://extensions/
 ----
 ### 5. Create Github account or sign in to GitHub then Add your ssh key. 0:15
 ----
-#### 1. Sign in to GitHub. (Create an account, if you don't have one.)
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: If you already have a GitHub account, skip to step 2.
+  </div>  
+</div>
+<br/>
+
+#### 1. Create an account, if you don't have one.
 
 ```
 https://github.com
 ```
 
+![Login to Github](./images/fr0101-04_SignUp-to-github.png "Login to GitHub")
+
+#### 2. Sign in to your Github and add your Github ssh key from your .ssh folder to your github account.
+
+```
+https://github.com/login
+```
+
 ![Login to Github](./images/fr0101-04_Login-to-github.png "Login to GitHub")
 
-#### 2. Add your Github ssh key from your .ssh folder to your github account.
+
+- Browse to your ssh Keys settings.
 
 ```
 https://github.com/settings/ssh
