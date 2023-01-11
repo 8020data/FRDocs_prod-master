@@ -14,6 +14,7 @@
 ----
 
 - Shouldn't every computer professional understand the total picture? Whether your expertise is infrastructure, database, presentation or project management, you can't go wrong with more knowledge about the other disciplines. 
+
 - The goal of this formR tutorial is to give you a step by step guide to building a complete environment for a secure server on the cloud serving web pages that access and manipulate data via the Internet.
 ----
 

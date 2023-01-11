@@ -807,9 +807,9 @@ Added Workspace and Updated Readme.md
 - Remember the pencil!
 
 ```
-#### 3. I updated it in GitHub.
+3. I updated it in GitHub.
 
-#### 4. I pulled it to my local repo using VScode
+4. I pulled it to my local repo using VScode
 ```
 
 ![Github-push-5](./images/fr0101-10_Github-push-5.png "Github-push-5")
@@ -818,7 +818,11 @@ Added Workspace and Updated Readme.md
 
 - Go to the bottom of the edit page to the Commit Changes section.
 
-- A description is required: Update README.md added #### 3. and 4.
+- A description is required: 
+
+```
+Update README.md added 3. and 4.
+```
 
 - Click commit Changes
 
@@ -826,7 +830,7 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-#### 8. Click the Sync Changes button to push to github
+#### 8. In VSCode click the Sync charm on the left of the bottom tray to pull from github
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 
@@ -835,11 +839,15 @@ Added Workspace and Updated Readme.md
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
 ----
-### 11. Install Node for Windows 0:05
+### 11. Install Node Version Selector for Windows 0:05
 ----
-#### 1. Be sure to CLOSE VSCode before installing Node
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Warning: Be sure to CLOSE VSCode before installing NVS
+  </div>
+</div>
 
-#### 2. To download browse to this URL and click to open the downloaded .msi file: 
+#### 2. To download NVS browse to this URL and click to open the downloaded .msi file: 
 
 ```
 https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
@@ -869,34 +877,30 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2-3.png "Nodejs-install-1")
 
-- Add and use Node Version 16 - the latest release
+- Choose the latest EVEN numbered release. To see the version list enter:
 
 ```
-    nvs add 16
+ nvs menu
+```
+
+![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
+
+- Add and use the latedt RVEN Node Version i.e. 18
+
+```
+    nvs add 18
 ```
 ```
-    nvs use 16
+    nvs use 18
 ```
 ```    
     nvs link
 ```
 
-- nvs link sets version 16 to default
+- nvs link sets version 18 to default
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
 
-- NOTE: Always choose the latest EVEN numbered release. To see the version list enter:"
-
-```
- nvs menu
-```
- 
- - then a comma
-
-![Nodejs-install-check](./images/fr0101-11_Nodejs-install-7.png "Nodejs-install-check")
-
-
-![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
 
 #### 5. Test from Windows command prompt:
 
