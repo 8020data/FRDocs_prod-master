@@ -930,7 +930,7 @@ dev.mysql.com/downloads
 - MySQL Server
 - MySQL Workbench
 - MySQL Shell
-- Connector/ODBC
+- Connector/ODBC x64
 - Connector/J
 - MySQL Documentation
 - Samples and Examples
@@ -949,10 +949,6 @@ dev.mysql.com/downloads
 
 ![MySQL-select-products-2](./images/fr0101-12_MySQL-select-products-2.png "MySQL-select-products-2")
 
-![MySQL-select-products-3](./images/fr0101-12_MySQL-select-products-3.png "MySQL-select-products-3")
-
-![MySQL-select-products-4](./images/fr0101-12_MySQL-select-products-4.png "MySQL-select-products-4")
-
 #### 7. Product Configuration
 
 ![MySQL-product-configuration](./images/fr0101-12_MySQL-product-configuration.png "MySQL-product-configuration")
@@ -961,11 +957,13 @@ dev.mysql.com/downloads
 
 ![MySQL-product-configuration-2](./images/fr0101-12_MySQL-product-configuration-2.png "MySQL-product-configuration-2")
 
-- Use the password: FormR!1234
+- Use the password: 
 
+```
+FormR!1234
+```
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
-
 
 <div class="notice-tip">
   <div class="notice-tip-header">
@@ -980,26 +978,15 @@ dev.mysql.com/downloads
 
 ![MySQL-product-configuration-5](./images/fr0101-12_MySQL-product-configuration-5.png "MySQL-product-configuration-5")
 
-![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6-0.png "MySQL-product-configuration-6")
-
-![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6.png "MySQL-product-configuration-6")
-
 ![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6a.png "MySQL-product-configuration-6")
 
-![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6b.png "MySQL-product-configuration-6")
-
-![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6c.png "MySQL-product-configuration-6")
-
-
-#### 8. Connect to Server
-
-- Enter this password:
+- Use the password: 
 
 ```
 FormR!1234
 ```
 
-- and click the Check button
+![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6a1.png "MySQL-product-configuration-6")
 
 <div class="notice-tip">
   <div class="notice-tip-header">
@@ -1007,32 +994,33 @@ FormR!1234
   </div>  
 </div>
 
-![MySQL-connect-server](./images/fr0101-12_MySQL-connect-server.png "MySQL-connect-server")
+
+![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6a2.png "MySQL-product-configuration-6")
+
+![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6a3.png "MySQL-product-configuration-6")
 
 
-#### 9. Apply Configuration
+![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6b.png "MySQL-product-configuration-6")
 
-![MySQL-apply-configuration](./images/fr0101-12_MySQL-apply-configuration.png "MySQL-apply-configuration")
+![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6c.png "MySQL-product-configuration-6")
 
-![MySQL-apply-configuration-1](./images/fr0101-12_MySQL-apply-configuration-1.png "MySQL-apply-configuration-1")
 
-#### 10. Be sure to Click the check boxes for Starting Workbench and Shell in the Installation Complete windows
 
-![MySQL-installation-complete](./images/fr0101-12_MySQL-installation-complete.png "MySQL-installation-complete")
-
-#### 11. MySQL Shell and MySQL WorkBench are automatically opened because you clicked the check boxes in the previous step.
+- MySQL Shell and MySQL WorkBench are automatically opened.
 
 ![MySQL-shell-workbench](./images/fr0101-12_MySQL-shell-workbench.png "MySQL-shell-workbench")
 
-#### 12. Select the Workbench window and click Local Instance 
+#### 8. Workbench
+
+- Select the Workbench window and click Local Instance 
 
 ![MySQL-workbench-login](./images/fr0101-12_MySQL-workbench-login.png "MySQL-workbench-login")
 
-#### 13. Enter credentials
+#### 10. Enter credentials
 
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
-#### 14. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
+#### 11. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
 
 
 <div class="notice-tip">
@@ -1061,7 +1049,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 ![MySQL-workbench-nimdas2](./images/fr0101-12_MySQL-workbench-nimdas2.png  "MySQL-workbench-nimdas2")
 
-#### 15. Select the MySql Shell window
+#### 12. Select the MySql Shell window
 
 - Enter:  
 ```
@@ -1078,7 +1066,7 @@ Y
 
 ![MySQL-shell-login](./images/fr0101-12_MySQL-shell-login.png "MySQL-shell-login")
 
-#### 16. Shell SHOW DATABASES
+#### 13. Shell SHOW DATABASES
 
 Enter: 
 
