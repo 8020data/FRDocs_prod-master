@@ -1016,11 +1016,26 @@ FormR!1234
 
 ![MySQL-workbench-login](./images/fr0101-12_MySQL-workbench-login.png "MySQL-workbench-login")
 
-#### 10. Enter credentials
+- Enter credentials
+
+- Use the password: 
+
+```
+FormR!1234
+```
+
+- Click Save password in vault
 
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
-#### 11. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Remember to write your passwords in a safe place.
+  </div>  
+</div>
+
+#### 9. Create and Grant Privileges to a new user account: nimdas with host %
 
 
 <div class="notice-tip">
@@ -1049,7 +1064,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 ![MySQL-workbench-nimdas2](./images/fr0101-12_MySQL-workbench-nimdas2.png  "MySQL-workbench-nimdas2")
 
-#### 12. Select the MySql Shell window
+#### 10. Select the MySql Shell window
 
 - Enter:  
 ```
@@ -1066,7 +1081,7 @@ Y
 
 ![MySQL-shell-login](./images/fr0101-12_MySQL-shell-login.png "MySQL-shell-login")
 
-#### 13. Shell SHOW DATABASES
+#### 11. Shell SHOW DATABASES
 
 Enter: 
 
